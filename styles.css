@@ -1,0 +1,295 @@
+/* Navbar */
+
+.navLogo {
+  width: 70px;
+}
+
+
+
+
+
+/* Home */
+
+
+
+
+  body {
+    overflow: hidden;
+  }
+  
+  #home-img {
+    width: 800px;
+    position: absolute;
+    top: 10px;
+    left: 630px;
+    z-index: -1;
+    transition: all 0.3s ease;
+  }
+
+  #home-img:hover {
+    width: 700px;
+  }
+  
+  #ovr-div {
+    text-align: center;
+  }
+  
+  #km {
+    font-family: 'Anton', sans-serif;
+    color: #B2B2B2;
+    position: absolute;
+    font-size: 90px;
+    top: 78px;
+    left: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  #km:hover {
+    color: #F6B10E;
+    font-size: 100px;
+  }
+  
+  #frontend-title {
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    color: #FFD2D2;
+    font-size: 40px;
+    top: 165px;
+    left: 130px;
+    transition: all 0.3s ease;
+  }
+  
+  #frontend-title:hover {
+    color: #F6B10E;
+    font-size: 50px;
+  }
+  
+  #portfolio-link {
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    color: #FF5C5C;
+    top: 210px;
+    transition: all 0.3s ease;
+  }
+  
+  #portfolio-link:hover {
+    color: #F6B10E;
+    font-size: 120px;
+  }
+  
+  #resume-link {
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    color: #5C54FF;
+    top: 270px;
+    left: 350px;
+    transition: all 0.3s ease;
+  }
+  
+  #resume-link:hover {
+    color: #F6B10E;
+    font-size: 120px;
+  }
+
+  #contact-link {
+    font-family: 'Anton', sans-serif;
+    font-size: 180px;
+    position: absolute;
+    color: #99F0D6;
+    top: 400px;
+    left: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  #contact-link:hover {
+    color: #F6B10E;
+    font-size: 200px;
+  }
+
+  @media (max-width: 767px) {
+    #home-img {
+      width: 100%;
+      position: relative;
+      top: 300px;
+      left: 0;
+      z-index: -1;
+    }
+
+    #home-img:hover {
+      width: 500px;
+    }
+    
+    #km {
+      font-size: 50px;
+      top: 40px;
+      left: 0;
+    }
+
+    #km:hover {
+      color: #F6B10E;
+      font-size: 50px;
+    }
+
+    #frontend-title {
+      font-size: 25px;
+      top: 100px;
+      left: 0;
+    }
+
+    #frontend-title:hover {
+      color: #F6B10E;
+      font-size: 25px;
+    }
+
+    #portfolio-link {
+      font-size: 50px;
+      top: 140px;
+    }
+
+    #portfolio-link:hover {
+      color: #F6B10E;
+      font-size: 50px;
+    }
+
+    #resume-link {
+      font-size: 50px;
+      top: 200px;
+      left: 0;
+    }
+
+    #resume-link:hover {
+      color: #F6B10E;
+      font-size: 50px;
+    }
+
+    #contact-link {
+      font-size: 100px;
+      top: 250px;
+      left: 0;
+    }
+
+    #contact-link:hover {
+      color: #F6B10E;
+      font-size: 100px;
+    }
+  }
+  
+
+
+
+
+  /* Portfolio Page */
+
+
+
+
+
+  #preview-link1 {
+    position: absolute;
+    top: 290px;
+    left: 500px;
+    font-size: 40px;
+    color: #5C54FF;
+  }
+
+  #preview-link1:hover {
+    color: #F6B10E;
+  }
+
+  #preview-link2 {
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    left: 500px;
+    font-size: 40px;
+    color: #FF5C5C
+  }
+
+  #preview-link2:hover {
+    color: #F6B10E;
+  }
+
+  #preview-link3 {
+    position: absolute;
+    top: 410px;
+    left: 650px;
+    font-size: 40px;
+    color: #B2B2B2;
+  }
+
+  #preview-link3:hover {
+    color: #F6B10E;
+  }
+
+  #preview-container1 {
+    display: none;
+    position: absolute;
+    top: 160px;
+    left: 140px;
+  }
+
+  #preview-container2 {
+    display: none;
+    position: absolute;
+    top: 240px;
+    left: 220px;
+  }
+
+  #preview-container3 {
+    display: none;
+    position: absolute;
+    top: 320px;
+    left: 220px;
+    border: 5px solid #B2B2B2;
+  }
+
+  @media (max-width: 767px) {
+    #preview-link1 {
+      font-size: 30px;
+      left: 40px;
+      top: 250px;
+    }
+  
+    #preview-link2 {
+      font-size: 30px;
+      left: 40px;
+      top: 300px;
+    }
+  
+    #preview-link3 {
+      font-size: 30px;
+      left: 150px;
+      top: 350px;
+    }
+  
+    #preview-container1 {
+      left: 10px;
+      top: 400px;
+    }
+  
+    #preview-container2 {
+      left: 10px;
+      top: 400px;
+    }
+  
+    #preview-container3 {
+      left: 10px;
+      top: 400px;
+    }
+  }
+  
+
+
+
+  /* Resume */
+
+
+  @media (max-width: 767px) {
+    #res {
+      width: 500px;
+    }
+  }
+
+
